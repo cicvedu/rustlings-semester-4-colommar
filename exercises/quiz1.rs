@@ -7,18 +7,27 @@
 //
 // Mary is buying apples. The price of an apple is calculated as follows:
 // - An apple costs 2 rustbucks.
-// - If Mary buys more than 40 apples, each apple only costs 1 rustbuck!
+// - If Mary buys more than 40 apples, each apple only costs 1 rustbuck! 
 // Write a function that calculates the price of an order of apples given the
 // quantity bought. No hints this time!
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
 // fn calculate_price_of_apples {
 
 // Don't modify this function!
+
+fn main () {
+
+}
+
+fn calculate_price_of_apples(apple:i32) -> i32  {
+    if apple <= 40 {apple *  2}
+    else {apple}
+}
+
 #[test]
 fn verify_test() {
     let price1 = calculate_price_of_apples(35);
